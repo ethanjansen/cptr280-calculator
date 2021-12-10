@@ -18,3 +18,5 @@ then push numbers to stack and then opporate on them depending on when an operat
 handle errors
 
 For output: besides initially saying stuff (input: h for whateer:), don't say anything, just listen for input. for ouput put ">> output"
+
+Assemble with flags: -mfloat-abi=hard -mfpu=vfpv2

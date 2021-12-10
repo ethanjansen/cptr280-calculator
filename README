@@ -1,0 +1,20 @@
+RPN calculator - enter between values
+
+example:
+2
+3
+4
+*
++
+becomes (3*4)+2
+
+ensure precedence
+support: +, *, /, -
+use libmath
+
+process:
+read everything with sscanf
+then push numbers to stack and then opporate on them depending on when an operator is reached
+handle errors
+
+For output: besides initially saying stuff (input: h for whateer:), don't say anything, just listen for input. for ouput put ">> output"
